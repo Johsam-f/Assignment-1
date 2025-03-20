@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofadi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.main-container{
+    display: flex;
+    height: 30rem;
+    width: 60rem; 
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+.icon{
+    color: #1147f6;
+    border: 3px dotted #1147f6;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    color: #222;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
